@@ -1,0 +1,221 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ══════════════════════════════════════════════
+         BASE APPLICATION THEME (Material3 Dark)
+    ══════════════════════════════════════════════ -->
+    <style name="Theme.RtlTutor" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Brand Colors -->
+        <item name="colorPrimary">@color/accent_cyan</item>
+        <item name="colorOnPrimary">@color/bg_primary</item>
+        <item name="colorPrimaryContainer">@color/bg_elevated</item>
+        <item name="colorOnPrimaryContainer">@color/accent_cyan</item>
+        <item name="colorSecondary">@color/accent_teal</item>
+        <item name="colorOnSecondary">@color/bg_primary</item>
+        <item name="colorTertiary">@color/accent_violet</item>
+        <item name="colorOnTertiary">@color/white</item>
+
+        <!-- Surfaces -->
+        <item name="colorSurface">@color/bg_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurfaceVariant">@color/bg_elevated</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="android:colorBackground">@color/bg_primary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+
+        <!-- Outline / Dividers -->
+        <item name="colorOutline">@color/divider</item>
+        <item name="colorOutlineVariant">@color/divider</item>
+
+        <!-- Error -->
+        <item name="colorError">@color/bloom_5</item>
+        <item name="colorOnError">@color/white</item>
+
+        <!-- Status / Nav bars -->
+        <item name="android:statusBarColor">@color/bg_primary</item>
+        <item name="android:navigationBarColor">@color/bg_surface</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+
+        <!-- Elevation overlay -->
+        <item name="elevationOverlayEnabled">false</item>
+
+        <!-- TextAppearances -->
+        <item name="textAppearanceDisplayLarge">@style/TextAppearance.RtlTutor.DisplayLarge</item>
+        <item name="textAppearanceDisplayMedium">@style/TextAppearance.RtlTutor.DisplayMedium</item>
+        <item name="textAppearanceDisplaySmall">@style/TextAppearance.RtlTutor.DisplaySmall</item>
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.RtlTutor.HeadlineLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.RtlTutor.HeadlineMedium</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.RtlTutor.HeadlineSmall</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.RtlTutor.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.RtlTutor.TitleMedium</item>
+        <item name="textAppearanceTitleSmall">@style/TextAppearance.RtlTutor.TitleSmall</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.RtlTutor.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.RtlTutor.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.RtlTutor.BodySmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.RtlTutor.LabelLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.RtlTutor.LabelMedium</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.RtlTutor.LabelSmall</item>
+    </style>
+
+    <!-- ══════════════════════════════════════════════
+         TYPOGRAPHY — Space Grotesk (Headlines)
+    ══════════════════════════════════════════════ -->
+    <style name="TextAppearance.RtlTutor.DisplayLarge" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="fontFamily">@font/space_grotesk</item>
+        <item name="android:fontFamily">@font/space_grotesk</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="TextAppearance.RtlTutor.DisplayMedium" parent="TextAppearance.Material3.DisplayMedium">
+        <item name="fontFamily">@font/space_grotesk</item>
+        <item name="android:fontFamily">@font/space_grotesk</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="TextAppearance.RtlTutor.DisplaySmall" parent="TextAppearance.Material3.DisplaySmall">
+        <item name="fontFamily">@font/space_grotesk</item>
+        <item name="android:fontFamily">@font/space_grotesk</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="TextAppearance.RtlTutor.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">@font/space_grotesk</item>
+        <item name="android:fontFamily">@font/space_grotesk</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="TextAppearance.RtlTutor.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">@font/space_grotesk</item>
+        <item name="android:fontFamily">@font/space_grotesk</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="TextAppearance.RtlTutor.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">@font/space_grotesk</item>
+        <item name="android:fontFamily">@font/space_grotesk</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="TextAppearance.RtlTutor.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/space_grotesk</item>
+        <item name="android:fontFamily">@font/space_grotesk</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="TextAppearance.RtlTutor.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/space_grotesk</item>
+        <item name="android:fontFamily">@font/space_grotesk</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="TextAppearance.RtlTutor.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
+        <item name="fontFamily">@font/space_grotesk</item>
+        <item name="android:fontFamily">@font/space_grotesk</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <!-- ══════════════════════════════════════════════
+         TYPOGRAPHY — Inter (Body)
+    ══════════════════════════════════════════════ -->
+    <style name="TextAppearance.RtlTutor.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="TextAppearance.RtlTutor.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+    <style name="TextAppearance.RtlTutor.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textColor">@color/text_muted</item>
+    </style>
+    <style name="TextAppearance.RtlTutor.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="TextAppearance.RtlTutor.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+    <style name="TextAppearance.RtlTutor.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textColor">@color/text_muted</item>
+    </style>
+
+    <!-- ══════════════════════════════════════════════
+         TYPOGRAPHY — JetBrains Mono (Data/Code)
+         NOTE: Explicit parent prevents auto-parent lookup for "TextAppearance.RtlTutor"
+    ══════════════════════════════════════════════ -->
+    <style name="TextAppearance.RtlTutor.Monospace" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/jetbrains_mono</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/accent_violet</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    <style name="TextAppearance.RtlTutor.DataValue" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/jetbrains_mono</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/accent_cyan</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- ══════════════════════════════════════════════
+         WIDGET STYLES
+    ══════════════════════════════════════════════ -->
+
+    <!-- MaterialCard -->
+    <style name="Widget.RtlTutor.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/bg_surface</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">@color/divider</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="Widget.RtlTutor.Card.Elevated" parent="Widget.RtlTutor.Card">
+        <item name="cardBackgroundColor">@color/bg_elevated</item>
+    </style>
+
+    <!-- Primary Button -->
+    <style name="Widget.RtlTutor.Button.Primary" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/accent_cyan</item>
+        <item name="android:textColor">@color/bg_primary</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <!-- Text Button -->
+    <style name="Widget.RtlTutor.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <!-- TextInputLayout — using OutlinedBox, visual attrs set in XML -->
+    <style name="Widget.RtlTutor.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/bg_elevated</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxStrokeColor">@color/divider</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="hintTextColor">@color/text_muted</item>
+        <item name="android:textColorHint">@color/text_muted</item>
+    </style>
+
+    <!-- Chip -->
+    <style name="Widget.RtlTutor.Chip.Topic" parent="Widget.Material3.Chip.Assist">
+        <item name="chipBackgroundColor">@color/bg_elevated</item>
+        <item name="chipStrokeColor">@color/accent_amber</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textColor">@color/accent_amber</item>
+    </style>
+
+    <!-- Splash / Full-screen theme -->
+    <style name="Theme.RtlTutor.Splash" parent="Theme.RtlTutor">
+        <item name="android:windowBackground">@color/bg_primary</item>
+    </style>
+
+</resources>

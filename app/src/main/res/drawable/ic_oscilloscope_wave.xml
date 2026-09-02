@@ -1,0 +1,25 @@
+<!-- Oscilloscope waveform SVG watermark -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="120dp"
+    android:viewportWidth="400"
+    android:viewportHeight="120"
+    android:alpha="0.06">
+    <path
+        android:pathData="M0,60 L30,60 L45,20 L60,100 L75,10 L90,110 L105,30 L120,90 L135,40 L150,80 L165,50 L180,70 L195,45 L210,75 L225,35 L240,85 L255,25 L270,95 L285,55 L300,65 L315,48 L330,72 L345,38 L360,82 L375,58 L400,60"
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <!-- Grid dots -->
+    <path
+        android:pathData="M80,30m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"
+        android:fillColor="#00D4FF"/>
+    <path
+        android:pathData="M200,60m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"
+        android:fillColor="#00D4FF"/>
+    <path
+        android:pathData="M320,45m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"
+        android:fillColor="#00D4FF"/>
+</vector>

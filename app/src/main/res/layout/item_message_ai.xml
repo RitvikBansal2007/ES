@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingStart="12dp"
+    android:paddingEnd="48dp"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+
+    <!-- AI Message card with left cyan border -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/bg_message_ai"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Header: waveform icon + "RTL Tutor AI" -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="〜"
+                android:textSize="14sp"
+                android:textColor="@color/accent_cyan"
+                android:layout_marginEnd="6dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RTL Tutor AI"
+                android:textSize="11sp"
+                android:textColor="@color/accent_cyan"
+                android:fontFamily="@font/inter"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Message text -->
+        <TextView
+            android:id="@+id/tv_ai_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/text_primary"
+            android:fontFamily="@font/inter"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Bloom badge chip -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <TextView
+                android:id="@+id/tv_bloom_badge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bloom L3"
+                android:textSize="10sp"
+                android:textColor="@color/bloom_3"
+                android:fontFamily="@font/jetbrains_mono"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:background="@color/bg_elevated" />
+
+            <!-- Timestamp -->
+            <TextView
+                android:id="@+id/tv_timestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@color/text_muted"
+                android:fontFamily="@font/inter"
+                android:layout_marginStart="8dp"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

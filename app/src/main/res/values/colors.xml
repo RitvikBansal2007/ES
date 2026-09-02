@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background Colors -->
+    <color name="bg_primary">#080C14</color>
+    <color name="bg_surface">#0E1521</color>
+    <color name="bg_elevated">#1A2438</color>
+    <color name="bg_card">#111827</color>
+    <color name="bg_modal">#0D1420</color>
+
+    <!-- Accent Colors -->
+    <color name="accent_cyan">#00D4FF</color>
+    <color name="accent_teal">#00B896</color>
+    <color name="accent_amber">#F5A623</color>
+    <color name="accent_violet">#8B5CF6</color>
+    <color name="accent_rose">#F43F5E</color>
+    <color name="accent_emerald">#10B981</color>
+
+    <!-- Gradient helpers -->
+    <color name="accent_cyan_dim">#1A00D4FF</color>
+    <color name="accent_teal_dim">#1A00B896</color>
+    <color name="accent_violet_dim">#1A8B5CF6</color>
+    <color name="accent_amber_dim">#1AF5A623</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#F0F4FF</color>
+    <color name="text_secondary">#8899BB</color>
+    <color name="text_muted">#4A5568</color>
+    <color name="text_inverse">#080C14</color>
+
+    <!-- Bloom Level Colors -->
+    <color name="bloom_1">#4A5568</color>
+    <color name="bloom_2">#2563EB</color>
+    <color name="bloom_3">#059669</color>
+    <color name="bloom_4">#D97706</color>
+    <color name="bloom_5">#DC2626</color>
+    <color name="bloom_6">#7C3AED</color>
+
+    <!-- Kolb Stage Colors -->
+    <color name="kolb_ce">#00B896</color>  <!-- Concrete Experience = DO -->
+    <color name="kolb_ro">#F5A623</color>  <!-- Reflective Observation = REVIEW -->
+    <color name="kolb_ac">#2563EB</color>  <!-- Abstract Conceptualization = LEARN -->
+    <color name="kolb_ae">#8B5CF6</color>  <!-- Active Experimentation = TRY -->
+
+    <!-- Utility -->
+    <color name="divider">#1E2A3D</color>
+    <color name="ripple_light">#338899BB</color>
+    <color name="online_green">#22C55E</color>
+    <color name="offline_red">#EF4444</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Legacy (keep for compat) -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
